@@ -1,0 +1,167 @@
+
+/* Row 4-Free Tempalte */
+#row_4 {
+    height: 600px;
+    width: auto;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+  
+}
+
+
+.tempalate_img {
+    
+    display: flex;
+    
+    /* border: 1px solid red; */
+   
+
+}
+
+
+.tempalate_img > div {
+
+   width: 300px;
+    height: 400px;
+    
+    margin: 10px;
+}
+.tempalate_img > div >img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+    
+
+}
+.row4_col2  {
+    margin-left: 100px;
+    /* border: 1px solid red; */
+    height: 400px;
+}
+
+.row4_font {
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    
+}
+.row4_para {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.btn_row4,
+.btn_support {
+    border: 2px solid rgb(120, 86, 255);
+    background-color: white;
+    font-size: 17px;
+    padding: 20px 30px;
+    line-height: 15px;
+    color: rgb(120, 86, 255);
+    border-radius: 2px;
+    font-weight: 400;
+    margin-top: 20px;
+
+}
+
+/* Support */
+
+#row_5 {
+    /* background: https://i3.campaignmonitor.com/assets/images/heroes/banner-ripcurl.jpg; */
+    background-image: url(https://i3.campaignmonitor.com/assets/images/heroes/banner-ripcurl.jpg);
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
+.row5_para {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    /* border: 1px solid red; */
+    padding: 150px 0px 0px 0px;
+}
+.row5_name {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-top: 30px;
+    font-weight: 500;
+}
+.row5_outer {
+    margin-left: 250px;
+} 
+/* .btn_support {
+    border: 1px solid rgb(120, 86, 255);
+    background-color: white;
+    font-size: 17px;
+    padding: 20px 30px;
+    line-height: 15px;
+    color: rgb(120, 86, 255);
+    border-radius: 2px;
+    font-weight: 500;
+    margin-top: 20px;
+
+} */
+
+/* Automate Row 6 */
+#automate {
+    display: flex;
+    /* border: 1px solid red; */
+    height: 460px;
+    margin: 100px 100px;
+    /* padding-left: 100px; */
+    align-items: center;
+    
+}
+.auto_right {
+   
+    /* border: 1px solid black; */
+    padding: 30px;
+    /* height: 300px; */
+    
+    margin-left: 100px;
+    
+
+}
+.btn_auto {
+    border: 2px solid black;
+    background-color: white;
+    font-size: 17px;
+    padding: 20px 30px;
+    line-height: 15px;
+    color: rgb(120, 86, 255);
+    border-radius: 2px;
+    font-weight: 500;
+    margin-top: 20px;
+
+}
+#automate > div> h3 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 500;
+}
+#automate > div> p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.auto_img {
+    width: 600px;
+    
+    margin-left: 300px;
+    
+}
+
+.auto_img >img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+}
