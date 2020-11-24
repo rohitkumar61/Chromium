@@ -1,0 +1,540 @@
+body {
+    display: block;
+    margin: 8px;
+    min-width: 320px;
+    text-rendering: optimizeLegibility;
+    letter-spacing: -0.05em;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .header img {
+      float: left;
+      width: 50px;
+      height: 44px;
+      background-color:  rgb(17,19,36);
+    }
+    
+    #signUp, #learnMore{
+        width: 150px;
+        height: 40px;   
+        font-weight:500;
+    }
+    #signUp{
+        background-color:#7856ff;
+        color: white;
+        font-weight: 500;
+         border:1px solid #7856ff; 
+    }
+    #learnMore{
+        background-color: white;
+        /* color: blue; */
+        border:1px solid blue;
+    }
+    #learnMore:hover {
+     background-color:#7856ff;
+     color: white;
+     cursor: pointer;
+   }
+    #sign{
+       color: white; 
+    }
+    #learn{
+       color: blue; 
+    }
+    #img_right{
+       float: right;
+    }
+    #img_top{
+        margin: 10px;
+        z-index: 30px;
+    }
+    #img_middle{
+       margin: 10px;
+       z-index: 20px;
+    }
+    #img_bottom{
+       margin: 10px;
+       z-index: -10px;
+    }
+    #box_2{
+        background-color:#f6f6f7;
+        margin: 100px 0 ;
+        width: 100%;
+        height: 100%;
+    }
+    .box_2_logo{
+        margin: 90px 50px 20px 250px;
+        display: flex;
+        padding-bottom: 90px;
+    }
+    .box_2_p{
+       margin-top: 100px;
+       padding-top: 100px;
+       text-align: center;
+       font-size: 30px;
+       font-weight:500;
+       font-family: 'Montserrat', sans-serif;
+    }
+    .log {
+        width: 50px;
+        margin:20px 20px 90px 150px;
+    }
+    #box_3{
+        margin: 100px 0 ;
+        width: 100%;
+        height: 100%;
+    }
+    #right_img_2{
+       float: right ;
+    }
+    #box_3_heading{
+        text-align: center;
+        font-size: 30px;
+    }
+    #right_img_1{
+           display: flex;
+           margin-left: 130px;
+       }
+       #right_img_1{
+           display: flex;
+       }
+       #box_3{
+           /* width: 100%;
+           height: 100%; */
+           display: flex;
+       }
+       #content{
+           width: 1200px;
+       }
+       #content >h3{
+           text-align: left;
+           margin-left: 50px;
+           font-size: 15px;
+           font-weight:800;
+       }
+       #content >p{
+           text-align: left;
+           margin: auto;
+           font-size: 15px;
+           margin-left: 50px;
+           color: rgb(110, 108, 108);
+       }
+#box_4 {
+    height: 600px;
+    width: auto;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
+.tempalate_img {
+    display: flex;
+    /* border: 1px solid red; */
+}
+.tempalate_img > div {
+   width: 300px;
+    height: 400px;
+    margin: 10px;
+}
+.tempalate_img > div >img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+.row4_col2  {
+    margin-left: 100px;
+    /* border: 1px solid red; */
+    height: 400px;
+}
+.row4_font {
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+.row4_para {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.btn_row4,
+.btn_support {
+    border: 2px solid rgb(120, 86, 255);
+    background-color: white;
+    font-size: 17px;
+    padding: 20px 30px;
+    line-height: 15px;
+    color: rgb(120, 86, 255);
+    border-radius: 2px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+/* Support */
+#box_5 {
+    /* background: https://i3.campaignmonitor.com/assets/images/heroes/banner-ripcurl.jpg; */
+    background-image: url(https://i3.campaignmonitor.com/assets/images/heroes/banner-ripcurl.jpg);
+    background-size: cover;
+    height: 400px;
+    color: white;
+}
+.row5_para {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    /* border: 1px solid red; */
+    padding: 150px 0px 0px 0px;
+}
+.row5_name {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding-top: 30px;
+    font-weight: 500;
+}
+.row5_outer {
+    margin-left: 250px;
+} 
+/* .btn_support {
+    border: 1px solid rgb(120, 86, 255);
+    background-color: white;
+    font-size: 17px;
+    padding: 20px 30px;
+    line-height: 15px;
+    color: rgb(120, 86, 255);
+    border-radius: 2px;
+    font-weight: 500;
+    margin-top: 20px;
+} */
+/* Automate Row 6 */
+#box_6 {
+    display: flex;
+    /* border: 1px solid red; */
+    height: 460px;
+    margin: 100px 100px;
+    /* padding-left: 100px; */
+    align-items: center;
+}
+.box_6_right {
+    /* border: 1px solid black; */
+    padding: 30px;
+    margin-left: 150px;
+}
+.btn_auto {
+    border: 2px solid black;
+    background-color: white;
+    font-size: 17px;
+    padding: 20px 30px;
+    line-height: 15px;
+    color: rgb(120, 86, 255);
+    border-radius: 2px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#box_6 > div> h3 {
+    font-size: 36px;
+    line-height: 45px;
+    font-weight: 500;
+}
+#box_6 > div> p {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+.box_6_img {
+    width: 600px;
+    margin-left: 300px;
+}
+.box_6_img >img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin: auto;
+}
+
+
+#box_7 {
+    display: flex;
+    border: 1px solid red; 
+    height: 460px;
+    margin: 100px 100px;
+    /* padding-left: 100px; */
+    align-items: center;
+}
+
+
+#box_8 {
+    display: flex;
+    border: 1px solid red; 
+    height: 460px;
+    margin: 100px 100px;
+    /* padding-left: 100px; */
+    align-items: center;
+}
+
+    .square{
+        display: block;
+        border: 1px solid black;
+    }
+    .square-a {
+        background-color: #65b9ff
+    }
+    .square-b {
+        background: linear-gradient(#7856ff, #65b9ff);
+    }
+    .square-purple {
+        background-color: purple;
+    }
+    .square-red {
+        background-color: red;
+    }
+    
+    
+    ul {
+        text-align: center;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:  rgb(17,19,36);
+      position: -webkit-sticky; /* Safari */
+      position: sticky;
+      top: 0;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: rgb(0, 100, 117);
+    }
+    
+    .active {
+      background-color: #010044;
+    }
+    .button {
+      border: none;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      color: #7856ff;
+      border: 1px solid #7856ff;  ;
+    }
+    
+    .button1 {
+      background-color: #7856ff;      
+      margin-top: 450px;
+      
+    }
+    
+    .button1:hover {
+      background-color:  rgb(120,86,255);
+      color: white;
+    }
+    
+    .button2 {
+      
+        background-color: #7856ff;
+     
+     
+    }
+    
+    .button2:hover {
+        background-color:  rgb(120,86,255);
+      color: white;
+    }
+    .right {
+      float:right;
+      margin-left: auto;
+    padding-right: 0px;
+      margin-right: 0;
+      width: 490px;
+      height: 355px;
+    }
+    
+    footer{
+        
+        bottom: 0;
+    }
+    .footer-distributed{
+        background-color:  rgb(17,19,36);
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;
+        font: bold 16px sans-serif;
+     
+        padding: 55px 50px;
+        margin-top: 80px;
+    }
+     
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: inline-block;
+        vertical-align: top;
+    }
+     
+    .footer-distributed .footer-left{
+        width: 40%;
+    }
+     
+    .footer-distributed h3{
+        color:  #ffffff;
+        font: normal 36px 'Cookie', cursive;
+        margin: 0;
+    }
+     
+    .footer-distributed h3 span{
+        color:  #5383d3;
+    }
+     
+     
+    .footer-distributed .footer-links{
+        color:  #ffffff;
+        margin: 20px 0 12px;
+        padding: 0;
+    }
+     
+    .footer-distributed .footer-links a{
+        display:inline-block;
+        line-height: 1.8;
+        text-decoration: none;
+        color:  inherit;
+    }
+     
+    .footer-distributed .footer-company-name{
+        color:  #8f9296;
+        font-size: 14px;
+        font-weight: normal;
+        margin: 0;
+    }
+     
+     
+    .footer-distributed .footer-center{
+        width: 35%;
+    }
+     
+    .footer-distributed .footer-center i{
+        background-color:  #33383b;
+        color: #ffffff;
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 42px;
+        margin: 10px 15px;
+        vertical-align: middle;
+    }
+     
+    .footer-distributed .footer-center i.fa-envelope{
+        font-size: 17px;
+        line-height: 38px;
+    }
+     
+    .footer-distributed .footer-center p{
+        display: inline-block;
+        color: #ffffff;
+        vertical-align: middle;
+        margin:0;
+    }
+     
+    .footer-distributed .footer-center p span{
+        display:block;
+        font-weight: normal;
+        font-size:14px;
+        line-height:2;
+    }
+     
+    .footer-distributed .footer-center p a{
+        color:  rgb(120,86,255);
+        
+        text-decoration: none;;
+    }
+     
+    .footer-distributed .footer-right{
+        width: 20%;
+    }
+     
+    .footer-distributed .footer-company-about{
+        line-height: 20px;
+        color:  #92999f;
+        font-size: 13px;
+        font-weight: normal;
+        margin: 0;
+    }
+     
+    .footer-distributed .footer-company-about span{
+        display: block;
+        color:  #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+     
+    .footer-distributed .footer-icons{
+        margin-top: 25px;
+    }
+     
+    .footer-distributed .footer-icons a{
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        background-color:  #33383b;
+        border-radius: 2px;
+        font-size: 20px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 35px;
+        margin-right: 3px;
+        margin-bottom: 5px;
+    }
+     
+    
+    @media (max-width: 880px) {
+     
+        .footer-distributed{
+            font: bold 14px sans-serif;
+        
+        }
+     
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right{
+            display: block;
+            width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+     
+        .footer-distributed .footer-center i{
+            margin-left: 0;
+        }
+        .main {
+            line-height: normal;
+            font-size: auto;
+        }
+     
+    }
+    
