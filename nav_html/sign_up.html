@@ -5,7 +5,7 @@
 body {
 text-rendering: optimizeLegibility;
     letter-spacing: -0.05em;
-background-image:url('assets/s-bg.jpg') ;
+background-image:url("https://i1.campaignmonitor.com/assets/images/signup/background.jpg");
 font-family: Arial, Helvetica, sans-serif;
 color: #ffffff;
 min-width: 320px;
@@ -18,7 +18,7 @@ font-size: 18px;
   
 }
 
-h3 {
+/* h3 {
 color:#f2f2f2;
 display: block;
 margin-left:600px;
@@ -28,9 +28,9 @@ font-weight: 400;
 height: 20px;
 line-height: 15px;
 width: 1000px;
-}
+} */
 
-h1 {  text-indent: 30px;
+/* h1 {  text-indent: 30px;
  
 margin-left:550px;
 font: 56px;
@@ -40,10 +40,10 @@ height: 65px;
 line-height: 65.352px;
 width: 460px;
 
-}
+} */
 
 
-p{
+/* p{
 font-size: 18px;
 text-indent: 30px;
 margin-left:550px;
@@ -51,7 +51,7 @@ font-weight: 400;
 height: 54px;
 line-height: 27px;
 width: 460px;
-}
+} */
 
 
 p1{
@@ -171,23 +171,56 @@ input[type=submit]:hover {
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
+.outer,.outer_last{
+    /* border: 1px solid white; */
+    margin-left: 70px;
+    
+}
+.inner{
+    text-align: left;
+    /* border: 1px solid white; */
+    width: 500px;
+    margin-left: 530px;
+    text-align: center;
+    /* line-height: 20px; */
+    margin-top: 30px;
+    padding: 10px;   
+}
+.inner_last {
+    text-align: left;
+    /* border: 1px solid white; */
+    width: 500px;
+    font-size: 14px;
+    letter-spacing: .1px;
+    margin-left: 500px;
+    text-align: center;
+    /* line-height: 20px; */
+    /* margin-top: 30px; */
+    padding: 10px; 
+
+}
+.inner >p {
+    /* border: 1px solid white; */
+    height: 80px;
+    width: 500px;
+    padding: 10px;
+    letter-spacing: .5px;
+    margin-left: 8px;
+    text-align: center;
+    /* line-height: 10px; */
+}
+.href_change >a{
+    color: white;
 }
 </style>
 </head>
 <body>
-<h3> Campaign Monitor </h3>
-  
-<h1>Sign up for free.</h1>
-
-
-<p>Start sending beautifully designed emails today with our <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; drag-and-drop editor and library of free templates.</p>
-
+    <div class="outer">
+        <div class="inner">
+            <a href="#"><img src="https://i3.campaignmonitor.com/assets/images/global/footer/cmg-cm.svg?ver=16735"  alt="Campaign Monitor" title="Campaign Monitor - Part of the CM Group family of brands"></a>
+            <h1>Sign up for free.</h1>
+            <p>Start sending beautifully designed emails today with our drag-and-drop editor and library of free templates.</p>
+        </div>
 
 <div class="container">
   <form action="/action_page.php">
@@ -219,18 +252,13 @@ input[type=submit]:hover {
 </div>
   </form>
 
+<div class="outer_last">
+    <div class="inner_last">
+    <p class="href_change">Already have an account?<a href="#">Log In</a> </p>
+    <p >By signing up, you agree to our Terms of Use and Anti-spam Policy.</p>
+    </div>
+</div>
 
-<p style="margin-left:600px;
-font-size: 20px;
-font-weight: 400;
-height: 19px;
-line-height: 19.992px;
-width: 320px;" >Already have an account? Log in.</p>
-<p style="margin-left:600px;
-font-size: 20px;
-font-weight: 400;
-height: 19px;
-line-height: 19.992px;
-width: 320px;"> &nbsp;&nbsp; By signing up, you agree to our  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms of Use and Anti-spam Policy.</p>
+</div>
 </body>
 </html>
