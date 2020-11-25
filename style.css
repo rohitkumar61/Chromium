@@ -214,6 +214,7 @@ a:hover {
       #box_3{
          
           display: flex;
+          margin: 0px 30px;
       }
       #content{
           width: 1200px; 
