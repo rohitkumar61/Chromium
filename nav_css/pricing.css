@@ -1,5 +1,82 @@
 
-    h1{
+     * {
+        font-family: sans-serif;
+    }
+    /* {
+        font-family: sans-serif;
+    }
+    /* Headers */
+    #head{
+        background-color: #111324;
+        height: 80px;
+        width: 100%;
+        margin: 0;
+        min-width: 320px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        border: 0;    
+    
+    }
+    
+    a {
+        color: white;
+        /* font-size:16px ; */
+        /* line-height: 16px; */
+        font-weight: 200;
+        margin-left: 20px;
+        text-decoration: none;
+        padding: 10px;
+        /* border: 1px solid red; */
+        
+    }
+    a:hover {
+        color: teal;
+    }
+    .signup_active a{
+        background-color:  teal;
+        color: white;
+        border-radius: 5px;
+    }
+    .header_outer {
+        display: flex;
+        color: white;
+        padding-top: 10px;
+        height: 40px;
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 200;
+        margin-left: 20px;
+        margin-top: 5px;
+        
+    }
+    .header_logo {
+        color: white;
+        
+        /* border: 1px solid white; */
+        padding: 15px 0px;
+        margin-left: 200px;
+        width: 200px;
+    }
+    .header_middle {
+        display: flex;
+        /* border: 1px solid red; */
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+    .header_last {
+        display: flex;
+        /* border: 1px solid red; */
+        margin-left: 150px;
+        margin-top: 10px;
+        
+    }
+    #pricing{
+        margin: 200px 0px;
+    }    
+   
+   
+   h1{
         font-family: 'Graphik Web',Helvetica,sans-serif;
         font-size: 50px;
         line-height: 16px;
@@ -39,7 +116,7 @@
     color: #fff;
     text-align: center;
     margin: auto;
-    margin-left: 500px;
+    margin-left: 600px;
     border-radius: 3px ;
     border: #7856ff;
     font-weight: 500;
