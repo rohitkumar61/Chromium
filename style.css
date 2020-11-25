@@ -184,8 +184,10 @@ a:hover {
     object-fit: cover;
 } */
    #box_3{
-       margin: 100px 0 ;
-       width: 100%; 
+       /* margin: 100px 0 ; */
+       height: 500px; 
+       border: 1px solid red;
+       
    }
   
    #right_img_2{
@@ -193,14 +195,16 @@ a:hover {
    }
    #box_3_heading{
        text-align: center;
-       font-size: 30px;
-      font-family: 'Graphik Web',Helvetica,sans-serif;
-      line-height: 20px;
+       font-size: 36px;
+      font-family: sans-serif;
+      line-height: 45px;
       font-weight: 500;
       font-style: normal;
       color: #111324;
       width: 100%;
       padding: 0;
+      margin-top: 50px;
+        padding-top: 100px;
   }
    
    #right_img_1{
