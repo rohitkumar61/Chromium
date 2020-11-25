@@ -31,11 +31,6 @@
 
  }
 
-  
-    
-   
-   
-
 #btn-left{
    
     background-color: #7856ff;
@@ -44,7 +39,7 @@
     color: #fff;
     text-align: center;
     margin: auto;
-    margin-left: 700px;
+    margin-left: 500px;
     border-radius: 3px ;
     border: #7856ff;
     font-weight: 500;
@@ -129,7 +124,6 @@ body{
     font-weight: 600;
     margin: -15px;
     margin-left: 20px;
-   
     line-height: 100px;
     color: #111324;
     position: absolute;
@@ -158,13 +152,13 @@ h3{
 
 #box-2bg {
   height: 1000px;
-  width: 1800px;
+  /* width: 1800px; */
   background-color: #f6f6f7;
 }
 #box-2{
     display: grid;
     width: 80%;
-    margin-left: 200px;
+    margin-left: 150px;
     background-color: white;
     grid-template-areas: "lef mid rig";
 }
@@ -180,7 +174,7 @@ h3{
 #mid_div{
     grid-area:mid;
     display: flex;
-    border: 1px solid #8a8b93;
+    border: 0.01px solid #8a8b93;;
     padding: 30px;
     border-top:none;
     border-bottom:none;
@@ -189,7 +183,7 @@ h3{
 }
 #right_div{
     grid-area: rig;
-    border: 1px solid #8a8b93;
+    border: 1px  #8a8b93;
     padding: 30px;
     display: flex;
     border-right:none;
