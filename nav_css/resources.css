@@ -1,0 +1,210 @@
+body {
+    font-family: sans-serif;
+    /* font-size: 62.5%; */
+}
+/* Headers */
+#head{
+    background-color: #111324;;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    min-width: 320px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 0;    
+
+}
+
+a {
+    color: white;
+    /* font-size:16px ; */
+    /* line-height: 16px; */
+    font-weight: 200;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 10px;
+    /* border: 1px solid red; */
+    
+}
+a:hover {
+    color: teal;
+}
+.signup_active a{
+    background-color:  teal;
+    color: white;
+    border-radius: 5px;
+}
+.header_outer {
+    display: flex;
+    color: white;
+    padding-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-top: 5px;
+    
+}
+.header_logo {
+    color: white;
+    
+    /* border: 1px solid white; */
+    padding: 15px 0px;
+    margin-left: 200px;
+    width: 200px;
+}
+.header_middle {
+    display: flex;
+    /* border: 1px solid red; */
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.header_last {
+    display: flex;
+    /* border: 1px solid red; */
+    margin-left: 150px;
+    margin-top: 10px;
+    
+}
+/* Row 1 Resources */
+.box_1{
+    background: linear-gradient(to right,#111324 0,#212547 100%);
+    color: white;
+    height: 400;
+    margin-top: 80px;
+}
+.inner {
+    /* background: blanchedalmond; */
+    display: inline-block;
+    padding: 20px;
+    margin-left:500px ;
+    margin-top: 80px;
+    
+}
+.inner > h1 {
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 65px;
+}
+.inner > p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+}
+
+/* Subscribe */
+.box_2{
+    background:rgb(120, 86, 255);
+    height: 60px;
+    /* display: flex; */
+}
+.inner_box2 {
+    display: flex;
+    /* background: white; */
+    width: 500px;
+    color: white;
+    text-align: center;
+    margin-left: 650px;
+}
+
+.btn_subscribe {
+    text-align: center;
+    padding: 5px;
+    margin:5px;
+    /* padding-right: 20px; */
+    width: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 10px;
+}
+.inner_box2 > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    /* text-align: center; */
+}
+/* Grid */
+.box_3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    
+    margin:0px 200px;
+    margin-top: 50px; 
+    
+}
+.box_3 >div {
+    width: 450px;
+    height: 450px;
+    border: 1px solid grey;
+    font-size: 30px;
+    text-align: center;
+}
+.img_1{
+    background-image:url(https://www.campaignmonitor.com/assets/uploads/2020/05/pivot-business-hero-e1590509202554-480x270.jpg);
+    background-size: cover;
+    height: 250px;
+}
+.img_2 {
+    background-image: url(https://www.campaignmonitor.com/assets/uploads/2020/05/covid-benchmarks-hero-480x270.jpg);
+    background-size: cover;
+    height: 250px;
+}
+.img_3 {
+    background-image: url(https://www.campaignmonitor.com/assets/uploads/2019/12/CM-benchmarks-2020-thumb-global-480x270.jpg);
+    background-size: cover;
+    height: 250px;
+}
+.img_4 {
+    background-image: url(https://www.campaignmonitor.com/assets/uploads/2020/01/covid-19-collection-banner-color-570x675.jpg);
+    background-size: cover;
+    height: 450px;
+    color: white;
+    /* justify-content: center; */
+     
+}
+.img_5 {
+    background-image: url(https://www.campaignmonitor.com/assets/uploads/2019/10/dark-with-bubbles-570x675.jpg);
+    background-size: cover;
+    height: 450px;
+    color: white;
+}
+.img_6 {
+    background-color: rgb(120, 86, 255);
+    height: 450px;
+    background-size: cover;
+    color: white;
+}
+.text_1 {
+    /* border: 1px solid red; */
+    margin: 20px;
+    color: grey;
+    padding: 10px;
+    padding-top: 0px;
+    margin-top: 5px;
+}
+.img_4  > div {
+    
+    /* border: 1px solid red; */
+    margin: 60px 50px;
+    text-align: left;
+   
+}
+.img_5  > div {
+    
+    /* border: 1px solid red; */
+    margin: 60px 50px;
+    text-align: left;
+    
+}
+.img_6  > div {
+    
+    /* border: 1px solid red; */
+    margin: 60px 50px;
+    text-align: left;
+    
+}
