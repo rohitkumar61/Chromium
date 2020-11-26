@@ -31,6 +31,7 @@ Campaign monitor provides lots of functionality for marketing team to save time 
  
  ### Blog Page:
  - Latest News, recent posts and instagram feed about the hotel has been displayed.
+ <img width="929" alt="Screenshot (640)" src="assets/blog.PNG">
  
  ### Sign Up & Sign In Pages:
  - The registration page uses local Storage for successful login.
