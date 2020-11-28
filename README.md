@@ -62,6 +62,6 @@ Campaign monitor provides lots of functionality for marketing team to save time 
 👤 **HR Shrayank**
 
 - Github: [@hrshrayank](https://github.com/hrshrayank)
-- Twitter: [@hrshrayank77](https://twitter.com/akhila_g28)
+- Twitter: [@hrshrayank77](https://twitter.com/hrshrayank77)
 - Linkedin: [H R Shrayank](https://www.linkedin.com/in/h-r-shrayank-2b04311b9/)
 - Email: (hrshrayank77@gmail.com)
