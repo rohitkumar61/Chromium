@@ -34,13 +34,13 @@ Campaign monitor provides lots of functionality for marketing team to save time 
  
  ### Sign Up & Sign In Pages:
  - The registration page uses local Storage for successful login.
- <img width="753" alt="Screenshot (641)" src="assets/sign up.PNG">
- <img width="753" alt="Screenshot (641)" src="assets/login 1.PNG">
+ <img width="753" alt="Screenshot (641)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/sign%20up.png?token=APLJKMHASXH2E4B5GHYMCJK7YIRAQ">
+ <img width="753" alt="Screenshot (641)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/login%201.png?token=APLJKMDCGHLSVOJIHPECQ3C7YIQ5Y">
 
 
  ### Contact Page:
  - The basic information is taken from the customer and the acknowledment slip is displayed using modal. 
- <img width="598" alt="Screenshot (644)" src="assets/contact (2).PNG">
+ <img width="598" alt="Screenshot (644)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/contact%20(2).png?token=APLJKMCMZD3TGCOVFA2JNDC7YIREW">
  
  👤 **Rohit Kumar**
 
