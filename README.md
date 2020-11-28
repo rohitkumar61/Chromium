@@ -14,23 +14,23 @@
 - Get started with one of our free templates.
 Campaign monitor provides lots of functionality for marketing team to save time and generate automated email as per user requirement work. Everything you need for digital and email marketing that's on point.Choose the plan that's right for your brand. Whether you're just getting started with email marketing or you're personalizing every campaign, there's a plan for you. Showcased with the help of screenshot.
 ### Landing Page
-<img width="917" alt="Screenshot (635)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/landing.png?token=APLJKMAL33RCZNG4YLQHWJK7YHIAO">
+<img width="917" alt="Screenshot (635)" src="https://miro.medium.com/max/1250/1*Nq7qEUnNPBalXb4q5hZtTA.png">
 
 
 
 ### Resource Page
-<img width="917" alt="Screenshot (635)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/resource.png?token=APLJKMBFCHDH6RUTD7HQQ6K7YHIF6">
+<img width="917" alt="Screenshot (635)" src="https://miro.medium.com/max/875/1*xTme0QE20c8qVbFPsiYG7A.png">
 
 
 
  ### Pricing Page:
  - Detailed description of Choose the plan that's right for your brand.
- <img width="929" alt="Screenshot (640)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/pricing%202.png?token=APLJKMBYVT6VSP6G3IXH35S7YHHY4">
+ <img width="929" alt="Screenshot (640)" src="https://miro.medium.com/max/875/1*eXzvRqCPtJxuN0dsujv8bA.png">
 
 
  
  ### Blog Page:
- - Latest News, recent posts and instagram feed about the hotel has been displayed.
+ - Latest News, recent posts and instagram feed about the Campaign monitor has been displayed.
  <img width="929" alt="Screenshot (640)" src="assets/blog.PNG">
  
  ### Sign Up & Sign In Pages:
