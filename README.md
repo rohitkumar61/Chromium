@@ -30,17 +30,16 @@ Campaign monitor provides lots of functionality for marketing team to save time 
  
  ### Blog Page:
  - Latest News, recent posts and instagram feed about the Campaign monitor has been displayed.
- <img width="929" alt="Screenshot (640)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/blog.png?token=APLJKMFBD5TSYAQHCDLHMI27YIRY6">
  
  ### Sign Up & Sign In Pages:
  - The registration page uses local Storage for successful login.
- <img width="753" alt="Screenshot (641)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/sign%20up.png?token=APLJKMCJ6VF4AT62BL7VCMK7YISZA">
- <img width="753" alt="Screenshot (641)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/login%201.png?token=APLJKMDCGHLSVOJIHPECQ3C7YIQ5Y">
+ <img width="753" alt="Screenshot (641)" src="assets/sign up.PNG">
+ <img width="753" alt="Screenshot (641)" src="assets/login 1.PNG">
 
 
  ### Contact Page:
  - The basic information is taken from the customer and the acknowledment slip is displayed using modal. 
- <img width="598" alt="Screenshot (644)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/contact%20(2).png?token=APLJKMCMZD3TGCOVFA2JNDC7YIREW">
+ <img width="598" alt="Screenshot (644)" src="assets/contact (2).PNG">
  
  👤 **Rohit Kumar**
 
