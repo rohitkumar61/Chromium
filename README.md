@@ -34,7 +34,7 @@ Campaign monitor provides lots of functionality for marketing team to save time 
  
  ### Sign Up & Sign In Pages:
  - The registration page uses local Storage for successful login.
- <img width="753" alt="Screenshot (641)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/sign%20up.png?token=APLJKMHASXH2E4B5GHYMCJK7YIRAQ">
+ <img width="753" alt="Screenshot (641)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/sign%20up.png?token=APLJKMCJ6VF4AT62BL7VCMK7YISZA">
  <img width="753" alt="Screenshot (641)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/login%201.png?token=APLJKMDCGHLSVOJIHPECQ3C7YIQ5Y">
 
 
