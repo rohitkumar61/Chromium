@@ -30,7 +30,7 @@ Campaign monitor provides lots of functionality for marketing team to save time 
  
  ### Blog Page:
  - Latest News, recent posts and instagram feed about the Campaign monitor has been displayed.
- <img width="929" alt="Screenshot (640)" src="assets/blog.PNG">
+ <img width="929" alt="Screenshot (640)" src="https://raw.githubusercontent.com/rohitkumar61/Chromium/main/assets/blog.png?token=APLJKMFBD5TSYAQHCDLHMI27YIRY6">
  
  ### Sign Up & Sign In Pages:
  - The registration page uses local Storage for successful login.
